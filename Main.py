@@ -14,7 +14,7 @@ folderDirectory ="/Users/nancyamelia/Desktop/FYP/Data"
 bankKeywords= {
               'HSBC' : ' "HSBC" OR "HSBC_UK" OR "HSBCUKBusiness" OR "HSBC_UK_Careers" OR "#hsbc #bank" ',
               'BNPParibas' : ' "BNP Paribas" OR "BNPParibas" OR "BNPPcampus" OR "BNPP_Wealth" OR "BNPPFBelgie" OR "BNPPAM_COM" OR "#bnp #paribas" OR "#bnp #bank" ',
-              'DeutcheBank' : ' "Deutsche Bank" OR "DeutscheBank" OR "careersDB" OR "#deutsche #bank" ',
+              'DeutscheBank' : ' "Deutsche Bank" OR "DeutscheBank" OR "careersDB" OR "#deutsche #bank" ',
               'Santander' : ' "Santander" OR "Santanderuk" OR "SantanderUKHelp" OR "SantanderAcc" OR "SantanderBank" ',
               'Barclays': ' "Barclays" OR "Barclay" OR "BarclaysUK" OR "BarclaysUKHelp" OR "Barclaysuknews" OR "BarclaysBusiness" OR "Barclays_cship" OR "BarclaysJobsUK"',
               'Lloyds' :  ' "Lloyds" OR "Lloydsbank" OR "Lloydsuk" OR "Lloydsbanks" OR "AskLloydsBank" ',
