@@ -101,10 +101,11 @@ class TweetManager:
 		if hasattr(tweetCriteria, 'topTweets'):
 			if tweetCriteria.topTweets:
 				url = "https://twitter.com/i/search/timeline?q=%s&l=en&src=typd&max_position=%s"
-
+		
+		
 		
 		url = url % (urllib.quote(urlGetData), refreshCursor)
-		print url
+
 		headers = [
 			('Host', "twitter.com"),
 			('User-Agent', "Mozilla/5.0 (Windows NT 6.1; Win64; x64)"),

@@ -5,8 +5,10 @@ import datetime
 import codecs
 if sys.version_info[0] < 3:
     import got
+else:
+    import got3 as got
 
-folderDirectory ="/Users/nancyamelia/Desktop/FYP/Data/Testing"
+folderDirectory ="/Users/nancyamelia/Desktop/FYP/Data"
 
 
 bankKeywords= {
@@ -35,9 +37,9 @@ def createDirFile(filename):
 
 
 def main():
-	sinceDate = "2017-11-27"
+	sinceDate = "2017-12-11"
 	#Remember to writdired=e the until Date + 1 day
-	untilDate = "2017-11-28"
+	untilDate = "2017-12-18"
 	for bankName in bankKeywords:
 		try:
 			print "Executing bank " + bankName
